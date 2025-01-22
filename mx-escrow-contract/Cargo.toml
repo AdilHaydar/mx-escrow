@@ -1,0 +1,22 @@
+[package]
+name = "escrow-contract"
+version = "0.1.0"
+authors = ["adilhaydar"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+multiversx-sc = "0.43.5"
+multiversx-sc-derive = "0.43.5"
+multiversx-sc-codec = "0.18.1"
+quote = "1.0.18"
+proc-macro2 = "1.0.93"
+
+[dev-dependencies]
+multiversx-sc-scenario = "0.43.5"
+
+[workspace]
+members = [".", "meta"]
