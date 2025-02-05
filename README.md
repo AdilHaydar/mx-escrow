@@ -53,4 +53,4 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/AdilHaydar/mx-escrow.git
-cd token-escrow-dapp
+cd mx-escrow
